@@ -109,7 +109,7 @@ while True:
 		nuevo_segmento.speed(100)
 		nuevo_segmento.shape("square")
 		nuevo_segmento.penup()
-		nuevo_segmento.color("grey")
+		nuevo_segmento.color("light green")
 		segmentos.append(nuevo_segmento)
 
 		#Aumentar marcador
@@ -151,7 +151,7 @@ while True:
 
 			segmentos.clear()
 
-			#Resetear marcado
+			#Resetear marcador
 			score = 0
 			texto.clear()
 			texto.write("Score: {}          High Score: {}".format(score,high_score), align = "center", font = ("Courier", 20, "normal"))
